@@ -1,0 +1,37 @@
+HELP.md
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### Maven
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### VS Code
+.vscode/
+
+### Logs
+logs/
+*.log
+
+### Environment
+.env
+.env.*
+
+### OS Files
+.DS_Store
+Thumbs.db

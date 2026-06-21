@@ -1,0 +1,23 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: career-recommendation-system
+
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+
+jwt:
+  secret: ${JWT_SECRET}
+  access-expiry: 900000
+  refresh-expiry: 604800000
+
+ml:
+  base-url: ${ML_BASE_URL}
+logging:
+  level:
+    root: INFO
+    com.example.career: DEBUG
+
