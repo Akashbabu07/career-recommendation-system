@@ -59,7 +59,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.addAllowedOrigin("http://localhost:5173");
         config.addAllowedOrigin("http://localhost:3000");
-        config.addAllowedOrigin("https://career-recommendation-system-fronte.vercel.app");
+        config.addAllowedOrigin("https://career-recommendation-system-front.vercel.app");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         config.setAllowCredentials(true);
